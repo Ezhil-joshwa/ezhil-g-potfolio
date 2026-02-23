@@ -15,7 +15,7 @@ const ExperienceCard = ({ title, company, date, role, description, index }) => (
                 <h4>{title}</h4>
                 <div className="experience-info">
                     <span className="role">{role}</span>
-                    <span className="company"> <br/> <span>@</span><strong><a href="https://jeevantech.in/">{company}</a></strong></span>
+                    <span className="company"> <br/> <span>@</span><strong><a href="{link}">{company}</a></strong></span>
                 </div>
             </div>
             <div className="header-right">
@@ -34,6 +34,7 @@ const Experience = () => {
             title: "Intern",
             company: "Jeevan Tech Digital Innovetions",
             date: "Jan 2026 - Present",
+            link: "https://jeevantech.in/",
             role: "Web Developer",
             description: "Developed and maintained responsive web applications using HTML, CSS, JavaScript, and React. Assisted in backend development using Node.js and MongoDB (beginner level). Collaborated with team members to improve UI/UX and fix issues."
         },
