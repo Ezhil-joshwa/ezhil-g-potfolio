@@ -15,7 +15,7 @@ const ExperienceCard = ({ title, company, date, role, description, index }) => (
                 <h4>{title}</h4>
                 <div className="experience-info">
                     <span className="role">{role}</span>
-                    <span className="company">  <br/> <strong>{company}</strong></span>
+                    <span className="company"> <br/> <span>@</span><strong>{company}</strong></span>
                 </div>
             </div>
             <div className="header-right">
