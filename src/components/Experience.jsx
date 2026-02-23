@@ -31,17 +31,17 @@ const ExperienceCard = ({ title, company, date, role, description, index }) => (
 const Experience = () => {
     const experiences = [
         {
-            title: "Intern-Ship",
+            title: "Intern",
             company: "Jeevan Tech Digital Innovetions",
             date: "Jan 2026 - Present",
             role: "Web Developer",
             description: "Developed and maintained responsive web applications using HTML, CSS, JavaScript, and React. Assisted in backend development using Node.js and MongoDB (beginner level). Collaborated with team members to improve UI/UX and fix issues."
         },
         {
-            title: "Freelance Designer",
+            title: "Freelancer",
             company: "Self-Employed",
-            date: "June 2026 - Present",
-            role: "UI/UX Designer",
+            date: "June 2025 - Present",
+            role: "Web Developer - UI/UX Designer",
             description: "Executed various design projects for local clients, specializing in brand identity and landing page optimization. Mastered tools like Adobe XD and Figma to deliver user-centric design solutions."
         }
     ];
