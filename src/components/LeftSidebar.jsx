@@ -75,7 +75,7 @@ const LeftSidebar = () => {
             <div className="divider"></div>
 
             <div className="languages-section">
-                <SkillCircle percent={99} label="Tamil" />
+                <SkillCircle percent={100} label="Tamil" />
                 <SkillCircle percent={85} label="English" />
             </div>
 
@@ -86,7 +86,12 @@ const LeftSidebar = () => {
                 <SkillBar label="HTML" percent={90} />
                 <SkillBar label="CSS" percent={95} />
                 <SkillBar label="JS" percent={80} />
-                <SkillBar label="React" percent={60} />
+                <SkillBar label="React" percent={80} />
+                <SkillBar label="Node JS" percent={70} />
+                <SkillBar label="Express" percent={70} />
+                <SkillBar label="Sql" percent={90} />
+                <SkillBar label="Git & Github" percent={80} />
+                <SkillBar label="Figma" percent={80} />
             </div>
 
             <div className="divider"></div>
